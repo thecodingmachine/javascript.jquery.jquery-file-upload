@@ -1,5 +1,5 @@
 {
-    "name": "mouf/javascript.jquery.file-upload",
+    "name": "mouf/javascript.jquery.jquery-file-upload",
     "description": "This package contains an install script that installs a WebLibrary that can be used to easily integration the jquery-file-upload library in Mouf.",
     "keywords": ["javascript", "jquery", "file_upload"],
     "homepage": "https://mouf-php.com/packages/mouf/javascript.jquery.file-upload",
