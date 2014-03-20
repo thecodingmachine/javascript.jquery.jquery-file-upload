@@ -27,7 +27,10 @@ class JqueryFileUploadInstaller implements PackageInstallerInterface {
 			'vendor/blueimp/jquery-file-upload/js/jquery.fileupload.js'
 			),
 			array(),
-			array(),
+			array(
+				'jQueryLibrary',
+				'jQueryUiLibrary'
+			),
 			true
 		);
 

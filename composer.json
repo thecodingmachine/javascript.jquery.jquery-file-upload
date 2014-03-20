@@ -1,35 +1,39 @@
 {
-    "name": "mouf/javascript.jquery.jquery-file-upload",
-    "description": "This package contains an install script that installs a WebLibrary that can be used to easily integration the jquery-file-upload library in Mouf.",
-    "keywords": ["javascript", "jquery", "file_upload"],
-    "homepage": "https://mouf-php.com/packages/mouf/javascript.jquery.file-upload",
-    "type": "mouf-library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "David Négrier",
-            "email": "d.negrier@thecodingmachine.com",
-            "homepage": "http://mouf-php.com"
-        }
-    ],
-    "require": {
-    	"php": ">=5.3.0",
-    	"blueimp/jquery-file-upload": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Mouf\\Javascript\\Jquery\\FileUpload\\": "src/"
-        }
-    },
-    "extra": {
-    	"mouf": {
-	    	"install": [
-	    		{
-				"type" : "class",
-				"class" : "Mouf\\Javascript\\Jquery\\FileUpload\\JqueryFileUploadInstaller"
-			}
-	    	],
-	    	"logo": "logo.png"
-    	}
-    }
+	"name" : "mouf/javascript.jquery.jquery-file-upload",
+	"description" : "This package contains an install script that installs a WebLibrary that can be used to easily integration the jquery-file-upload library in Mouf.",
+	"keywords" : [
+		"javascript",
+		"jquery",
+		"file_upload"
+	],
+	"homepage" : "https://mouf-php.com/packages/mouf/javascript.jquery.file-upload",
+	"type" : "mouf-library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "David Négrier",
+			"email" : "d.negrier@thecodingmachine.com",
+			"homepage" : "http://mouf-php.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0",
+		"blueimp/jquery-file-upload" : "*",
+		"mouf/javascript.jquery.jquery": "~1.9",
+		"mouf/javascript.jquery.jquery-ui": "~1.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Mouf\\Javascript\\Jquery\\FileUpload\\" : "src/"
+		}
+	},
+	"extra" : {
+		"mouf" : {
+			"install" : [{
+					"type" : "class",
+					"class" : "Mouf\\Javascript\\Jquery\\FileUpload\\JqueryFileUploadInstaller"
+				}
+			],
+			"logo" : "logo.png"
+		}
+	}
 }
