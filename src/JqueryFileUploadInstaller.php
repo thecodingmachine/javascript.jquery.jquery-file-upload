@@ -5,7 +5,7 @@
  * See the file LICENSE.txt for copying permission.
  */
 
-namespace Mouf\Utils\Log\Psr;
+namespace Mouf\Javascript\Jquery\FileUpload;
 
 use Mouf\Installer\PackageInstallerInterface;
 use Mouf\MoufManager;
